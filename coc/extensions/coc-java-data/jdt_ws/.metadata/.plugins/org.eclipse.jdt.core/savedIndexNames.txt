@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+/Users/guilhermegiarola/.config/coc/extensions/coc-java-data/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3227224978.index
+1865797976.index
+3939774360.index

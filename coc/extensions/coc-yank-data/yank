@@ -1,0 +1,813 @@
+eaa19c86d9e1bbe956f1f115119837d1|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/main.go|28|43|v|go
+	sends
+de696c305026fe18e68671f273d2e8c1|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|3|2|v|go
+	mport 
+e44f2ae7eb72a45b5f622079de35a7f3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|6|2|V|go
+		fmt.Println("Hello, World!")
+8b1a9953c4611296a827abf8c47804d7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|6|14|v|go
+	Hello
+7d793037a0760186574b0282f2f435e7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|6|14|v|go
+	world
+146c8f2b6f33a957b9133a8f29157cca|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|4|9|V|go
+	import "rsc.io/quote"
+469cf80e57be2d3fe55657cf9c157d21|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/Getting%20Started/hello.go|8|14|v|go
+	"Hello, world!"
+fad58de7366495db4650cfefac2fcd61|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/sql/databaseConnection.go|10|6|v|go
+	main
+e23a58e7d73af1dbba080a957913651d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/sql/databaseConnection.go|18|2|V|go
+		fmt.Println("Success!")
+176e2fed463403f567c404e2a1f098e4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/sql/databaseConnection.go|17|1|V|go
+		defer db.Close()
+14394c5c49af908579a9413d07d4a921|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|6|30|V|go
+		"./sql/databaseConnection.go"
+11e0eed8d3696c0a632f822df385ab3c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|15|33|v|go
+	database
+110ab1165fc6b9f3d84c7e8c55a11de2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|48|14|v|go
+	ce to seed record album data.
+316622d1a232fe04987a42bff1682a58|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|48|1|V|go
+	// albums slice to seed record album data.
+	var albums = []album{
+		{ID: "1", Title: "Blue Train", Artist: "John Coltrane", Price: 56.99},
+		{ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", Price: 17.99},
+		{ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
+	}
+0174ab8d6dc3ebe34a63d8a32884d60b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|53|2|v|go
+	sqlConnection
+5fafc8abba0d367eabd7602d5532d7ef|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|54|1|V|go
+		var conn = SqlConnection()
+d34dc3928d381a244964404df8b7a71d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|21|33|v|go
+	*sql.DB) 
+e306bfed996cf0906006ce215f367c10|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|5|12|v|go
+	databaseConnection
+4c1636e05a7dd4082ede3e7e7733e4ca|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/sql/go.mod|3|1|V|gomod
+	replace example.com/sql-connection/sql => ./sql
+3a2997e56468ca64ba6e7b6763a5a9c8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|58|13|V|go
+		const db = conn.SqlConnection()
+b9582e889f65da2070454ffa004a74fc|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|5|33|V|go
+		"example.com/sql-connection/sql"
+3e3aaf9a1241b55ce0a1990bbb9c0633|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|58|15|v|go
+	SqlConnection
+d002aa9dba76a912d3c5b9b7a9cece44|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|58|1|V|go
+		const conn = SqlConnection()
+150afc324b7fbc3931023e96d81bd032|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/sql/databaseConnection.go|7|1|v|go
+	export 
+e49533a5a4346bd76cc5a50c8f5cc12d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|4|9|v|go
+	databaseCo
+7f90a16b1fe416c48b1b1b71a815b2a9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|4|9|v|go
+	nnectio
+8b8f4683e802fdc9280d2853bfcb2425|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|4|9|v|go
+	n.go
+6234c6b088058ebcd6380b731e55661e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/go.work|5|7|v|gowork
+	/databaseConnection.
+0cdb8f26e06bad79221b571f093bcb86|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/main.go|6|19|V|go
+		sqlConnection "./sql"
+2d6202c256a8207168a3fa94bcb34ba0|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|1|14|v|javascript
+	require 
+4ca65a8bdbeae8b6ee400801a8a8f812|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|1|23|v|javascript
+	express
+80791b3ae7002cb88c246876d9faa8f8|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|1|v|typescript
+	http
+47a7a9b46d537412a5d87d0f2524a022|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|1|V|typescript
+	createServer();
+6f5c7003ab900766de6f0e64519997db|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|1|13|V|typescript
+	import "http";
+15c2d85f1fae22a3c3a0594510a1f611|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|26|v|typescript
+	Request
+d64ed3e9c10229648e069f56e32f4c8e|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|48|v|typescript
+	Response
+c96dbb5dfd0a2e53b722c160d05f9417|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|26|v|typescript
+	ServerResponse
+f49e5678ac487e3adac12bf914ebad8e|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|64|v|typescript
+	typeof 
+8d03acaf073a82000866ddad071ff5e9|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|4|25|V|typescript
+	  createServer(req, res);
+6877dc84384912f68acf3f1b02e96f3b|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|33|V|typescript
+	function rqListener(req: any, res: any) {}
+385e2dcd3e569cd4c078ebb5108370c3|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|14|v|typescript
+	rqListener(req, res)
+c1c425268e68385d1ab5074c17a94f14|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|3|14|v|typescript
+	function
+7d9861bb7fb656cc28330136fff27c1f|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|1|1|V|typescript
+	import { createServer } from "http";
+3871f4b354fae17909d68199e90ba26d|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|7|16|V|typescript
+	server.listen();
+839d7228b5ccc60e54455093a966b8c2|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|7|8|v|typescript
+	listen
+f0ffd3b7c2574ac324603ed00488c850|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|1|14|v|typescript
+	require
+29f7d8420737afce6bfbd0799fab0509|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.ts|2|24|V|typescript
+	const http = require("http");
+2bf7c503832a0adbc17bb0994631b37c|file:///Users/guilhermegiarola/.config/nvim/plug-config/telescope.vim|11|1|V|vim
+			"./node-modules/*",
+			"node_modules",
+			"^node_modules/*",
+			"node_modules/*"
+98727780a70831c25afd3fdaf6c5a1a0|file:///Users/guilhermegiarola/.config/nvim/plug-config/telescope.vim|10|1|V|vim
+		file_ignore_patterns = {
+			"node_modules"
+			},
+4340fd73e75df7a9d9e45902a59ba3a4|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|4|19|v|javascript
+	headers
+2e596343419c84343d1911e9b9ffe8b1|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|6|1|V|javascript
+		res.write('<html>');
+166248a6129a1e4370d20adc2d4c23f3|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|7|13|v|javascript
+	<html>
+974db98b24c103c1457fd7bdad71fb91|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|7|1|V|javascript
+		res.write('</html>');
+fc35fdc70d5fc69d269883a822c7a53e|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|7|15|v|javascript
+	html
+856478ebed8ad1840fc338a8fe4c10cf|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|8|1|V|javascript
+		res.write('<head><title>My First Page</title></head>');
+f60b442219e107fbd693d0b1367136cd|file:///Users/guilhermegiarola/Documents/Studying/Nodejs/app.js|8|13|v|javascript
+	<head><title>My First Page</title></head>
+efa9d6068dd8068d752b642dc5d9e2ec|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/sql/databaseConnection.go|7|1|V|go
+	func SqlConnection() *sql.DB {
+		db, err := sql.Open("mysql", "root:admin@tcp(127.0.0.1:3306)/test")
+	
+		if err != nil {
+			panic(err.Error())
+		}
+		return db
+	}
+10e51314a7eed86b1b229ccdf383502e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|70|2|v|go
+	const 
+b7b530e169f45c731ed327198d8b690b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|70|2|v|go
+	let 
+fe8ecf7ac1b43d2088331a73887b360e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/sql/databaseConnection.go|1|1|V|go
+	package main
+	
+	import (
+		"database/sql"
+	)
+	
+cbb65b6bb4aba402e5a03140394dedf9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|4|2|v|go
+	sql 
+b5606685c37f6f61fdee2b7bb0af33f5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|4|1|V|go
+		"database/sql"
+7a9267249b2a28fcdb2b9b7dcceef72f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|25|1|V|go
+		return db
+1c64af05629d35958a1163d33b0556a0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/src/main.go|25|1|V|go
+		defer db.Close()
+		fmt.Println("Success!")
+64cba1410f810a3c95e8d36a26b6c387|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|9|1|V|go
+		_ "github.com/go-sql-driver/mysql"
+5eab72e6c1eebac52ac5df720ded45ca|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|19|1|V|go
+	func SqlConnection() *sql.DB {
+		db, err := sql.Open("mysql", "root:admin@tcp(127.0.0.1:3306)/test")
+	
+		if err != nil {
+			panic(err.Error())
+		}
+		defer db.Close()
+		fmt.Println("Success!")
+	
+		return db
+	}
+36d1e3f3e4caabc5771ab2927e800db2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|8|3|V|go
+		_ "github.com/gin-gonic/gin"
+6955a506c042f6ace437c5d0a2105c2c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|7|2|V|go
+		"github.com/gin-gonic/gin"
+156c2f7bfd3f522d8a024767642df30c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|4|3|v|go
+	../internal/d
+c1d6f579a25dcabba5ca2734a7b78729|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|4|3|v|go
+	dbConnector
+d1efad72dc5b17dc66a46767c32fff40|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQL%20Connection/cmd/main.go|4|20|v|go
+	internal
+a6c7573b1af0b0430fa76c3cc39349bd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|5|1|V|go
+		"fmt"
+1c09f00067b0d7f666defad73d57259d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|62|1|V|go
+		if conn != nil {
+			fmt.Println("Success!")
+		}
+176f83d0362c089f3a23be8096adc9b7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|19|16|V|go
+		conn.Query("GET"
+51a18011ff0abdeb62eac9cf22df3c35|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|18|16|v|go
+	c *gin.Context, conn *sql.DB
+d7f24c32c185393ff2a85805bf1b320c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|22|17|v|go
+	c *gin.Context
+ad4e206408c1c59bfb8a057ba7857446|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|63|34|v|go
+	Context
+e0ffa2190154cb34d84ec60dcc851357|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|61|1|V|go
+		var conn = db.SqlConnection()
+9e925e9341b490bfd3b4c4ca3b0c1ef2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|19|12|v|go
+	this
+aefe998fdf375dbf6a81e64b078c4bc2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|19|12|V|go
+	var conn = sqlConnection();
+b25fd702e4e01b12a15a89c4d0bcdf78|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|36|35|v|go
+	conn 
+d59eb2c27e7df60ab14c2d6752539448|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|7|2|V|go
+		"SQLConnection/internal/db"
+ba9ffa669b455eda9042db4831b2e585|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|16|1|V|go
+		c.IndentedJSON(http.StatusOK, albums)
+b45cffe084dd3d20d928bee85e7b0f21|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|17|16|v|go
+	string
+6dc506f82a835d37815b339c83ed7301|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|15|1|V|go
+	func getAlbums(c *gin.Context) {
+		c.IndentedJSON(http.StatusOK, albums)
+	}
+	
+	func postAlbums(c *gin.Context) {
+		var newAlbum album
+	
+		//binds the request body to newAlbum
+		if err := c.BindJSON(&newAlbum); err != nil {
+			return
+		}
+	
+		//appends the new album to the slice and adds
+		// a 201 status code to the response
+		albums = append(albums, newAlbum)
+		c.IndentedJSON(http.StatusCreated, newAlbum)
+	}
+	
+	func getAlbumByID(c *gin.Context) {
+		id := c.Param("id")
+	
+		for _, a := range albums {
+			if a.ID == id {
+				c.IndentedJSON(http.StatusFound, a)
+				return
+			}
+		}
+	
+		c.IndentedJSON(http.StatusNotFound, gin.H{"message": "album not found"})
+	}
+ce76d6c6288aee3433833403028bf582|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|3|1|V|go
+	func 
+0dfcf9be63b07f7faa581624d62619cb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|5|1|V|go
+		"net/http"
+fab40fcfe482f1c1fb2d5c8c736b877c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|7|1|V|go
+	type album struct {
+		ID     string  `json:"id"`
+		Title  string  `json:"title"`
+		Artist string  `json:"artist"`
+		Price  float64 `json:"price"`
+	}
+3dc140098e222b0348dd3c13b537cfd1|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|3|1|V|go
+	type album struct {
+		
+	}
+04472fc149e15e748d3f1a642fe5a56e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|4|1|V|go
+		"SQLConnection/internal/model"
+20f35e630daf44dbfa4c3f68f5399d8c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|5|26|v|go
+	model
+c4f8393e0c007b946261398d0314a257|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|5|23|v|go
+	Album
+a4b2d20f456833bcdac42e73edad64c0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|13|15|v|go
+	album
+8513067737dc3b1b99e2c4e03279aa4a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|9|1|V|go
+	var albums = []model.Album{
+		{ID: "1", Title: "Blue Train", Artist: "John Coltrane", Price: 56.99},
+		{ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", Price: 17.99},
+		{ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
+	}
+f27330a9e5efda8d58cd68cace0dcbb6|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|8|42|V|go
+	// albums slice to seed record album data.
+b3f2afe36facebf3168fb5c26c76835d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|8|1|v|go
+	var 
+ad64e887dcb4380560bed7ba70c46f62|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|8|27|V|go
+	const albums []model.Album;
+0d084105e6f7af6e49bbd97d1bbb844a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|7|1|V|go
+	func GetAllAlbums(){
+	
+	}
+d435e452ee3fa1f198729b37fa22b4ac|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|12|6|v|go
+	GetAllAlbums
+4c2fc5cce99b41d35395ec483ca2c241|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|16|6|V|go
+	func (){
+08af44283aabb7cc60c006c1b634b3d7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|14|1|V|go
+		var newAlbum model.Album
+	
+		//binds the request body to newAlbum
+		if err := c.BindJSON(&newAlbum); err != nil {
+			return
+		}
+	
+		//appends the new album to the slice and adds
+		// a 201 status code to the response
+		albums = append(albums, newAlbum)
+		c.IndentedJSON(http.StatusCreated, newAlbum)
+f77a526d8fabe07c705985d93e2c8361|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|16|1|V|go
+		id := c.Param("id")
+	
+		for _, a := range albums {
+			if a.ID == id {
+				c.IndentedJSON(http.StatusFound, a)
+				return
+			}
+		}
+	
+		c.IndentedJSON(http.StatusNotFound, gin.H{"message": "album not found"})
+8921edc250ca9a84d5a1b7e853bcc016|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|4|9|v|go
+	string  
+f6039d44b29456b20f8f373155ae4973|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|5|22|v|go
+	Username
+7dfdf56c807c55f776db211e88e56c64|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|19|19|V|go
+	func GetFromDB() {}
+d4f221404ed8a2defdaf105c7e458c3f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|18|50|V|go
+		dbMap := &gorp.DbMap{Db: db, Dialect: gorp.mysql.
+92f3e68d0f9690084c0e9fa718e734f8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|5|10|V|go
+		_ "github.com/go-gorp/gorp"
+9b14eb620274f0f221efbdb160c9d3f3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|4|17|v|go
+	`db:"ID" 
+dfa0c13cca0cb660b7ff03f28812c5cb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|5|17|v|go
+	`db:"Title" 
+357b2c747f1dfc45c4bb28b9f9cd8559|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|5|17|v|go
+	json:"title"`
+ec4aa6862e10764d36b06c44ea9bc9c3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|4|17|v|go
+	json:"id"`
+3c91fc7ef313ede60780c2a03f76c5f4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|6|17|v|go
+	`db:"Artist" 
+3518bd3343f381db86c86840bb24ce67|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|6|17|v|go
+	json:"artist"`
+63d9af1a3697e3e0333a8a693ae30c96|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|7|17|v|go
+	`db:"Price" 
+76d9631e59b9d66ff7c766baeded735e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|7|17|v|go
+	json:"price"`
+4232bd8f9395ee52d639ca701f454df2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|8|5|V|go
+	var dbMap = SqlConnection()
+618bc42065a2a81280210ab15e6010fc|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|15|1|V|go
+		c.Bind(&album)
+		service.PostAlbum
+7b92225e1022860c5fbecd3a3bbd2637|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|13|1|V|go
+		if err != nil {
+			panic(err.Error())
+		}
+57ec3945e21ff5a7f3d52abbcbf1dbb2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|21|14|v|go
+	List 
+19a3b2f31baa3b975723078757d87dc5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|21|1|V|go
+			var albums List[]Album;
+4047c5607db6be8e0081725f0d164309|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|24|26|v|go
+	Artist
+3601146c4e948c32b6424d2c0a7f0118|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|24|37|v|go
+	Price
+a5a699f5c742ef41b7e397565cc82ddc|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|29|1|V|go
+			if err != nil {
+				
+			}
+716c68063536cabe15cf395a249a315e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|13|1|V|go
+	func PostAlbums(c *gin.Context) {
+		var album model.Album
+		c.Bind(&album)
+		service.PostAlbum
+	}
+	
+	func GetAlbumByID(c *gin.Context) {
+	}
+fe2e94c12e9cbbe268bd52b800757563|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|16|1|V|go
+	func PostAlbum(c *gin.Context){
+	
+	}
+bf7e2d208c8dd320db066671eb0f95a7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|12|1|V|go
+	func GetAlbumByID() {
+	
+	}
+37a6259cc0c1dae299a7866489dff0bd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|27|10|v|go
+	null
+e6ed698767e5cf1799246fa3217f98b1|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|17|1|V|go
+		fmt.Printf("Got until here.");
+0d6707c7e8462c84987d7f589dc477b3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|18|1|V|go
+		fmt.Printf("Got until here.")
+dad75a12dd58372acc937e3c94bc9d61|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|13|v|go
+	"Got until here."
+9dafc0b6d47d433d887977d8078a82e0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|30|1|V|go
+		if !res.Next() {
+			return nil
+		}
+7645f40a5713154e59f5c13b465ee07c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|30|1|V|go
+		if(res.Next()
+c1a9a474d030d4706c8346a0d15a48a5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|4|v|go
+	panic
+daf15a88cfda56a3cd63296ecec10042|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|10|43|v|go
+	tcp(127.0.0.1:3306)
+b76686265c8c6fb474f5b8e7f3543c1a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|10|32|v|go
+	root:admin@tcp(127.0.0.1:3306)/testdb
+5ebe2294ecd0e0f08eab7690d2a6ee69|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|10|45|v|go
+	secret
+e5eeb38319a1eb75e42be0d10c433138|file:///Users/guilhermegiarola/Documents/Studying/Golang/simplebank/db/sqlc/main_test.go|12|1|V|go
+	const (
+		dbDriver = "postgres"
+		dbSource = "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable"
+	)
+b4f200c1c7b2ab3596d8fefca17c9405|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|10|1|V|go
+		db, err := sql.Open("mysql", "mysql://root:@localhost:5432/testdb?sslmode=disable")
+10fed4ef65d7cc0aa881b698ef72b6be|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|14|22|v|go
+	"mysql", "mysql://root:@localhost:5432/testdb?sslmode=disable"
+eb10b2843d87900d245f40314a23e79f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|5|7|V|go
+		"SQL Connection/internal/model"
+555e6f08164cbd3366c5fcb0809fda72|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/controller.go|10|1|V|go
+		var albums = db.
+d9dcc49645f6787b139e1d537cfd3fda|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/controller.go|10|1|V|go
+			c.IndentedJSON(http.StatusOK, albums)
+6eaef5fd33a0f282dd07db1cd6a518b1|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/controller.go|1|1|v|go
+	package controllers
+a0562e1c3a0bc293bb64e6a46e6606a7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|4|1|V|go
+		"SQLConnection/internal/model"
+		"database/sql"
+	
+		_ "github.com/go-sql-driver/mysql"
+d26fa517f7635568a13bc2577f3d48ea|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|5|1|V|go
+		"go.mongodb.org/mongo-driver/mongo"
+6c9c68422f74ba969cca336ecc01c455|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|12|1|V|go
+		const (
+	k		dbDriver = "postgres"
+			dbSource = "postgresql://root:secret@localhost:5432/root?sslmode=disable"
+		)
+		db, err := sql.Open(dbDriver, dbSource)
+		defer db.Close()
+	
+		if err != nil {
+			panic(err.Error())
+		}
+	
+		res, err := db.Query("CREATE TABLE IF NOT EXISTS albums")
+	
+		res, err = db.Query("SELECT * FROM albums")
+	
+		defer res.Close()
+	
+		if err != nil {
+			panic(err.Error())
+		}
+	
+		var albums []model.Album
+		defer res.Close()
+		// for res.Next() {
+		// 	var album model.Album
+		// 	err := res.Scan(&album.ID,
+		// 		&album.Title,
+		// 		&album.Artist,
+		// 		&album.Price)
+	
+		// 	if err != nil {
+		// 		panic(err.Error())
+		// 	}
+		// }
+		return albums
+50e0f13cee2240f8b76825df1f744ffd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|12|1|V|go
+		return nil
+51bf67691f30afa7bd8304f5cfd6d4ca|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|11|21|v|go
+	odel.Album
+de612e9a4d4db2e178e0ab077bb5a6ea|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|9|9|v|go
+	GetAllFromDB
+7ce8b826eeb172ec12dff826866a4364|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|8|1|V|go
+	func GetAlbums(c *gin.Context) {
+		service.GetAllAlbums()
+	}
+9b313f648a3aae478c0cadad754cc226|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|12|6|v|go
+	GetAlbums
+0bf30f2a6efd554821f2af4bbcc19ffd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|7|1|V|go
+	func GetAllAlbums() []model.Album {
+		return nil
+	}
+ac39c489a6042d8234ba37f1fd040ca4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|11|18|v|go
+	[]model.Album {
+7f6ff13d5abfb98e6bc0097a03ca58be|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|12|1|V|go
+		client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI("mongodb://localhost:27017"))
+		if err != nil {
+			panic(err)
+		}
+	
+		if err := client.Ping(context.TODO(), readpref.Primary()); err != nil {
+			panic(err)
+		}
+1ed75a5d1e2c0bb05f410077765af687|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|6|31|v|go
+	mongo
+a02439ec229d8be0e74b0c1602392310|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|20|9|v|go
+	POST
+991e1b7e0abe0b445300cd123c16dd16|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|15|14|v|go
+	Should
+670e6248573f512520acb5de86fe2411|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|27|17|V|go
+		album := bson.D{{},{}}
+9c75414eeeb8df84e8c5bb2ed326fc3a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|25|1|V|go
+		var connection = openConnection()
+4717d53ebfdfea8477f780ec66151dcb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|26|2|v|go
+	connection
+df40477e9a75456ed53400041634f94b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|11|23|v|go
+	Mongo
+62608e08adc29a8d6dbc9754e659f125|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|11|23|v|go
+	client
+4e775f46f93bbac8a0c70a2e790c7b7a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|23|20|v|go
+	Album 
+9a0edc88ff5812d55c09deef6777e4c4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|22|1|V|go
+		album := model.Album{
+			ID:     input.ID,
+			Title:  input.Title,
+			Artist: input.Artist,
+			Price:  input.Price,
+		}
+ab44b8545c3645732a7ea0611f372b06|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|30|11|v|go
+	input.ID,
+a43c1b0aa53a0c908810c06ab1ff3967|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|31|11|v|go
+	input
+b78a3223503896721cca1303f776159b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|31|11|v|go
+	Title
+2aff40b3978501da84523c65ad6303ce|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|21|26|v|go
+	albums
+c0dd768623f2440f0c6cfde10aa2eecd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|25|6|v|go
+	connection 
+ca576d7a557302e936637622f7dd36b3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|26|13|v|go
+	InsertOne
+c6d6a5732e579bdb56a087ace6f9772d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|12|30|v|go
+	Client 
+faded25a234b26d4358dbb1c98a747b7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|13|10|V|go
+		service.PostAlbum()
+0167cffb2465d5a259e6788a9c282637|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|31|15|v|go
+	Bson
+3b99d249d92c7c26b9270b473550f341|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|20|v|go
+	(context.TODO()
+114010b40619efd53b4ada2ed6e471d8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|20|v|go
+	, &albums)
+db6d9b451b818ccc9a449383f2f0c450|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|9|v|go
+	collection
+4cfa6c981549e990fe2344e4c805405e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|9|v|go
+	Find
+41fe5d4ce785243347af6658b9f64025|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|13|8|V|go
+		return allAlbums
+e32f0fa5faba45f82c888d0add70714e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|36|3|V|go
+			log.Fatal(err)
+0b6879b186bfb2b1ec65d2460e4eccd4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|15|v|go
+	bson
+4f3572a78279abd2770dd8160c0498a4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|1|V|go
+		while(cursor.Next()) {
+			albums.
+		}
+4324551903e96a1fd0e23680906906ee|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|1|V|go
+		cursor.Current = append(cursor.Current, )
+222a267cc5778206b253be35ee3ddab5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|16|v|go
+	Current
+5c18ef72771564b7f43c497dc507aeab|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|33|v|go
+	context
+b7b1e314614cf326c6e2b6eba1540682|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|33|v|go
+	TODO
+c3a1daa9ab89c6b929a8785cf34f5f7f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|25|V|go
+		var albums []model.Album
+2add2ca2fcca97a88f909394b7c8d4c6|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|14|v|go
+	cursor.Current
+98f34d5bbb08dda1407dd155737180bf|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|1|V|go
+		fmt.Println("Got all Albums")
+9f2611965bf3704359e291886a918250|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|14|v|go
+	"Got all Albums"
+e1a7d0c3116046fd3c6952166da2eb2f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|19|4|v|go
+	post 
+d4ba4da88735cdc5bcd18dcee652a02e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|18|13|v|go
+	POST 
+8a1f643d89dbeeab414d672b82a234ee|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|20|36|v|go
+	PostAlbums
+651ee1cb1d5711c4d50bd89280a646c9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|14|10|v|go
+	PostAlbum
+aa56a2e65d8106aef3c61e4f6bf94fdb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|21|v|go
+	Elements
+3e64a3582efcc47e7488cc52245e40d8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|1|V|go
+		fmt.Println("Got all Albums")
+		fmt.Println(cursor.Current.String())
+9759bdc99a41f8156bb5bf6aa5bb304d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|25|v|go
+	CountDocuments
+393b220c19b7beb5ebadbcee952ab529|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|40|v|go
+	{}))
+8b03dfc13f984a0a73cf3884cfe1834c|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|1|V|go
+		fmt.Println(collection.countDocuments()(
+1791a97a8403730ee0760489a2aeb992|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|2|v|go
+	cursor
+b6e6660514b0291876364cfcac89d137|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|14|v|go
+	cursor.All(c, bson.M{})
+28836aea451f5767722ebe1514f7f16e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|34|2|v|go
+	collection.CountDocuments(c, bson.M{})
+	
+e3b8daa67d31f61bcd06d4769d8e476a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|23|V|go
+		fmt.Println(collection(c, bson.M{}))
+7842dedc0234ca48caada88a0cb18803|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|1|V|go
+				"id": &album.id,
+9516dfb15f51c7ee19a4d46b8c0dbe1d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|45|10|v|go
+	append
+6a05bb6aff6ecc23aaee5b20b30a83e8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|44|1|V|go
+			append(albums, bson.D{ 
+				"id": &album.id,
+				"title": &album.title,
+				"artist": &album.artist,
+				"price": &album.price,
+			})
+c86e45fc61b0baa3bd371d05d2354028|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|7|v|go
+	Println
+8b96f18e650bdd3a1acd09efc238cb58|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|45|9|v|go
+	err 
+447b7147e84be512208dcc0995d67ebc|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|14|v|go
+	item
+fc2aa8de8c07a92f1a8a0fae1855e579|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|45|7|V|go
+			item:= cursor.Current.Elements
+6747118df22a682b645a38f4a33436c2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|42|12|V|go
+			if err := 
+1c6805dc775dcf976e54f66e3a31b501|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|1|V|go
+			item:= cursor.Current.Elements
+			fmt.Printf(item)
+			fmt.Println(albums)
+0b8b9ebcaa828fe87c93b2cb912445e9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|47|11|V|go
+			fmt.Println(result)
+dfde5954467fe1260cae152c3b915314|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|14|v|go
+	albi,s
+07aa21958661adac249b034702f9c3b4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|4|9|V|go
+		ID     int64
+58b733f4c517990e15aeb34ccebac89b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|4|1|V|go
+		Title  string `json: "title" binding: "required"`
+0a703799ef34c42edb7532b22fe4fc3d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|5|2|v|go
+	Title  
+e2f0e866b7b61f2e8e5d16db85a7b1c0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|7|7|V|go
+		Artist string
+aa12f2c727d0299b73589e5058049018|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|7|7|V|go
+		Price  float64
+d5d3db1765287eef77d7927cc956f50a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/model/albumModel.go|6|24|v|go
+	title
+75d03d6dfe287fc38ea8e4e6d01a8a76|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|30|12|V|go
+			ID:     1,
+dbe9c1dc7f96929c6f4fc1dda57019db|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|29|1|V|go
+		album := model.Album{
+			Title:  "2112",
+			Artist: "Rush",
+			Price:  300.00,
+		}
+248a93f63a0fc7292812fac903b4c98a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|23|5|V|go
+			ID:     input.ID,
+ac101b32dda4448cf13a93fe283dddd8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|23|11|v|go
+	Body
+f308addaa36bd48295f8c566a6d88794|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|14|V|go
+		fmt.Println(albums)
+299687816f11a0a9b8536f7bc31118e6|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|28|23|V|go
+		collection.InsertOne(TODO(), album)
+7dbf02beb30c65f35b13e0466b3f36f5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|28|23|v|go
+	TODO()
+f2049cfc4f5f35bf6b6f8771c919be36|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|13|9|v|go
+	service.GetAllAlbums(c)
+27118326006d3829667a400ad23d5d98|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|26|v|go
+	String
+c424b4614133c28bf2c3dee0d0b54f6d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|33|v|go
+	toString
+08573553e1195ef7f9b2657721c02a8f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|33|v|go
+	());
+b07fa9716fc41ab5376bea8280fb1dee|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|32|41|v|go
+	[]model.Album 
+4852c2142fc1133d51bdfde5fe40d571|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|12|5|V|go
+		return
+e6bc2a9f5b41e14cf7b0777b4a89e6c7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|12|2|v|go
+	return 
+a1be7eddd6ebb61e436d9fc3cb2de7eb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|18|13|v|go
+	PUT 
+e3edd8ca5bffb41320f2044a5e1e7249|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|19|4|v|go
+	put 
+0ec5b824b63934153c7e8387c82e6f21|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|13|6|v|go
+	PutAlbum
+dcff1f7ac741fe20a8e5074a15b2c336|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|28|5|v|go
+	PutAlbumToDb
+f7b39021250883e94829dcbc40eeb4bf|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|16|40|v|go
+	GetAlbumByID
+422f2abf216e6605c2c73bce2848ae67|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|14|2|V|go
+		c.Params()
+b0987eb5280d81328a3015b7704fc826|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|11|1|V|go
+	func GetAllAlbums(c *gin.Context) {
+		db.GetAllAlbumsFromDb(c)
+	}
+b2900ffeab9e1ce7ad97f2de063941de|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|15|6|V|go
+	func GetAllAlbums(c *gin.Context) {
+491b08c0ba5905e439a782bf7b1061d4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/service/albumService.go|16|5|v|go
+	GetAllAlbumsFromDb
+26b7543105b9e8c6ed8ccc22a2d68272|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|36|v|go
+	c, bson.M{}, { Title: title }
+392a560f107004ae9393fce97d3cc9f7|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|33|51|v|go
+	return  
+226a1490048e846cd17237755d4e2338|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|36|8|V|go
+		return 
+6af8383bf798d723113de577e5ddcbc2|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|20|v|go
+	findOne
+b43e2cd134e2664c2fd89f67cb9b53c0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|25|v|go
+	c, Title: title
+b4a88417b3d0170d754c647c30b7216a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|35|2|v|go
+	result
+a25e6bc88022683a1b54471daad32cec|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|63|1|V|go
+		c.String(http.StatusOK, string(out))
+8746bdf7eaa4943c906788d4a104dda8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|33|v|go
+	res.Decode()
+729a9bb82d140ba4016eb4ee39d49a4d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|2|v|go
+	out 
+7fa74808fb897402606c66e6d1aa8ae0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|57|1|V|go
+			if err != nil {
+				panic(err)
+			}
+d778272533618edb2b98b2c16770a7ba|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|33|v|go
+	json.Marshal(out)
+f2d6e5675ac42ab83506997f60870023|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|42|1|V|go
+		if err != nil {
+			panic(err)
+		}
+b7dccc7d9373cd4717256318909fcebe|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|15|13|v|go
+	Param
+2e8a3e088a425c44d65d29312c3fa8d5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|14|45|V|go
+		router.GET("/albums", controllers.GetAlbums)
+afcbd7a8c284f6b190358586a4ee57a9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|16|27|V|go
+		router.GET("/albums/:", controllers.GetAlbumByTitle)
+b8d107c12065238179de4cd195f07abd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|18|1|V|go
+		service.GetAlbumByTitle(c, title)
+26834b52786893a97d8a05a282b17a1d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|15|1|V|go
+		service.GetAllAlbums(c)
+9ce250dfc56272c443075939c1680ff5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|19|1|V|go
+	func GetAlbumByTitle(c *gin.Context) {
+		title := c.Param("title")
+		fmt.Println(title)
+	}
+8a3518276d159ee452b5f0b1bb7cde7e|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|16|42|V|go
+		router.GET("/albums/:title", controllers.GetAlbumByTitle)
+b41067229f91bece9cdfc66681cdd7a3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|14|9|v|go
+	Routes
+0c15101f8d7e2834a089e3cfc05f04b6|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|20|3|v|go
+	controllers.GetAlbumByTitle)
+fdb1b10b312a7de772babc031809fc45|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|16|6|v|go
+	query 
+f25e28d9e9980b3151860d0e38dc02b5|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|16|10|V|go
+		fmt.Println(title)
+20df5f185e9996d24410e32f7dddb51b|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|1|V|go
+		fmt.Println(res)
+f26e47a5268a76cb8c36ac276050bf82|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|20|v|go
+	FindOne
+ea170e2cafb1337755c8b3d5ae4437f4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|20|v|go
+	find
+4e7cdef9944ce72281946a6411086695|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|40|2|v|go
+	res 
+5bde9da616ad70abb91f69c880ca27e4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|40|2|V|go
+		res, err := collection.Find(c, {title: title})
+c97dd6e389f6ea1d18e207fc4cb60d59|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|33|v|go
+	bson.D{primitive.E{Key: "title", Value: title}}
+1bf571896d35920a9ebf585e293656ff|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|38|1|V|go
+		fmt.Println(bson.D{primitive.E{Key: "title", Value: title}})
+610b70c2bc49a12312f26254a2650c64|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|64|1|V|go
+		cursor.All(c, bson.M{})
+		for cursor.TryNext(c) {
+			var result model.Album
+			err := cursor.Decode(&result)
+			if err != nil {
+				panic(err)
+			}
+			albums = append(albums, result)
+		}
+df86a61214ae0c6277d01ea8f2874ab0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|39|1|V|go
+		res, err := collection.Find(c, bson.D{primitive.E{Key: "title", Value: title}})
+d4385f850b76a671c1ce129c463318bb|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|68|1|V|go
+		cursor, err := collection.Find(c, bson.M{})
+067aeee68b8817abe9f8dcb0ea73b156|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|47|3|V|go
+			albums = append(albums, result)
+28069224812af21806eb853a1ce4d2c3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|53|11|V|go
+		err = res.Decode(&out)
+b197b90a1b6949420079caf92b9d13e8|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|56|1|V|go
+		c.String(http.StatusOK, string(str))
+e6e0e57d37206165dd474ea3e7cc3fec|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|14|V|go
+				fmt.Println("Found")
+e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|4|v|go
+	return
+51fe78eec879264d6d69f7b90f090b6f|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|41|1|V|go
+			var result model.Album
+a8ff4036d7f2c6bb70e4707cf7c452b0|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|50|17|V|go
+		fmt.Println(out)
+466deec76ecdf5fca6d38571f6324d54|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|56|26|v|go
+	json
+f13fb01d8ecc85792d6690bdcc9f5538|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|49|30|V|go
+		str, err := json.Marshal(out)
+505a83f220c02df2f85c3810cd9ceb38|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|53|26|v|go
+	Success
+8026fd91331d0f21633c785c6464512d|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|53|1|V|go
+		res, err := json.Marshal(out)
+772a9297dbe0fc523d7a25bd303076bd|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|57|14|v|go
+	GetString
+106dbfefe05d9bf379d5d3b7ae582c45|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|57|37|V|go
+		fmt.Println(c.Request.Response.Body)
+832f2b33e6b6c898f80d21526cd659d9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|15|v|go
+	string(json.Marshal(result))
+561f94f67f47077004d554bdc0a5bb14|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|47|23|v|go
+	json.Marshal(result)
+376e2034f9adb01e6d271af4d3d61211|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|48|26|V|go
+				res, err := string(res)
+eede8ca6c6a86267ce77b58e59bceb13|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|36|10|V|go
+		var out []model.Album
+f598e0151cc130731adc1bebe7a5f408|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|36|10|v|go
+	[]model.Album
+7e56b6ea95ce6426cae0d1526aa27f5a|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|56|19|v|go
+	Marshal
+c84a0f511cafc735b77f05e4fe1d4ad4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|46|1|V|go
+			if result.Title == title {
+				res, err := json.Marshal(result)
+				fmt.Printf(string(res))
+				if err != nil {
+					panic(err)
+				}
+				out = append(out, result)
+			}
+19687564e18e23f60ba100de578f7d35|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|54|10|V|go
+		albums.fi
+aceaec6bc06222b89c84148e6aac87e4|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|54|6|v|go
+	val 
+d065512d75c3ab1dc7d69c2d4c3b9843|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/db/dbConnector.go|54|1|V|go
+		for i := range(albums) {
+			if albums[i].Title == title {
+				out = append(out, albums[i])
+			}
+		}
+ad5ac0aaa1bcd2955fc662d06b273cc3|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/internal/controllers/albums.go|12|22|V|go
+		fmt.Println("Called")
+51176a55f17ee9470e35777559eb0bc9|file:///Users/guilhermegiarola/Documents/Studying/Golang/web-service-gin/SQLConnection/cmd/main.go|20|1|V|go
+			controllers.GetAlbums(c)
